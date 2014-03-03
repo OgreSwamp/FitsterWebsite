@@ -5444,5 +5444,85 @@ th.hide-for-touch {
   margin-top: 0px;
 }
 
+.stroke img {
+  display : block;
+  margin : auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.screenshots img {
+  display : block;
+  margin : auto;
+  margin-top: 45px;
+}
+
+.screenshots h3 {
+  font-size: 34px;
+  margin: auto;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.screenshots p {
+  font-size: 18px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 40.062em){
+  .small-even-row {
+    background: #1ea0ff;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  .medium-even-row {
+    background: #1ea0ff;
+    margin-top: 60px;
+    color: white;
+  }
+
+  .medium-even-row h3 {
+    color: white;
+  }
+}
+
+.appstore_button_bottom img
+{
+  display : block;
+  width: 217px;
+  height: 66px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.footer {
+  font-size: 14px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.footer .links {
+  color: #008cba;
+}
+
+.footer .links a {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.footer .copyright {
+  text-align: right;
+}
+
+}
+
 }
 
