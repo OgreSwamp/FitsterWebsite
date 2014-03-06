@@ -5475,6 +5475,11 @@ th.hide-for-touch {
 @media only screen and (max-width: 40.062em){
   .small-even-row {
     background: #1ea0ff;
+    color: white;
+  }
+
+  .small-even-row h3 {
+    color: white;
   }
 }
 
