@@ -5369,18 +5369,30 @@ th.hide-for-touch {
 #app_icon {
   float: left;
   margin-top: 40px;
+  margin-right: 20px;
 }
 
 .appstore h1 {
   font-size: 50pt;
-  text-transform: uppercase;
   margin-top: 35px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
 
-.app_subtitle {
-  margin-top: -20px;
+@media only screen and (max-width: 64.062em){
+
+  .app_title {
+    display: inline-block;
+  }
+
+  .app_subtitle {
+    text-align: center;
+  }
+
+  .appstore_button img {
+    display:block;
+    margin:auto;
+  }
 }
 
 .app_subtitle h2 {
@@ -5396,6 +5408,7 @@ th.hide-for-touch {
   width: 217px;
   height: 66px;
   margin-top: 15px;
+  margin-bottom: 35px;
 }
 
 .iphone_case {
