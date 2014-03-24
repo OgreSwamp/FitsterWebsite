@@ -5479,6 +5479,10 @@ th.hide-for-touch {
   display : block;
   margin : auto;
   margin-top: 45px;
+  width:302px;
+  max-width:302px;
+  height:536px;
+  border:1px solid rgba(0,0,0,0.3);
 }
 
 .screenshots h3 {
