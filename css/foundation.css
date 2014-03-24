@@ -1918,7 +1918,7 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #008cba;
+  background-color: #007aff;
   border-color: #0079a1;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
@@ -1930,7 +1930,7 @@ button, .button {
   border: none;
   font-weight: normal !important; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #0079a1; }
+    background-color: #1ea0ff; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -5367,8 +5367,6 @@ th.hide-for-touch {
 }
 
 #app_icon {
-  float: left;
-  margin-top: 40px;
   margin-right: 20px;
 }
 
@@ -5379,25 +5377,9 @@ th.hide-for-touch {
   padding-bottom: 0px;
 }
 
-@media only screen and (max-width: 64.062em){
-
-  .app_title {
-    display: inline-block;
-  }
-
-  .app_subtitle {
-    text-align: center;
-  }
-
-  .appstore_button img {
-    display:block;
-    margin:auto;
-  }
-}
-
-.app_subtitle h2 {
-  font-size: 22pt;
-  text-transform: uppercase;
+.apptitle h1 {
+  margin-top: 40px;
+  vertical-align: middle;
 }
 
 .appstore p {
@@ -5426,8 +5408,37 @@ th.hide-for-touch {
 }
 
 .app_description p {
-  padding-right: 20px;
   padding-top: 25px;
+}
+
+@media only screen and (max-width: 64.062em){
+
+  .app_title {
+    text-align: center;
+  }
+
+  .app_subtitle {
+    text-align: center;
+  }
+
+  .appstore_button img {
+    display:block;
+    margin:auto;
+  }
+
+  .app_description {
+    padding-left: 15px;
+  }
+
+  .app_description p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.app_subtitle h2 {
+  font-size: 22pt;
+  text-transform: uppercase;
 }
 
 .user_quotes img {
