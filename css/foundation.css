@@ -5391,7 +5391,10 @@ th.hide-for-touch {
 
 .iphone_case {
   margin-top: -2em;
-  margin-bottom: -7.5em;
+  margin-bottom: -8em;
+  width: 404px;
+  min-width: 404px;
+  height: 715px;
 }
 
 .no_padding {
