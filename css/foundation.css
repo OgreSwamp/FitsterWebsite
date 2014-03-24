@@ -5366,10 +5366,6 @@ th.hide-for-touch {
   display: block;
 }
 
-#app_icon {
-  margin-right: 20px;
-}
-
 .appstore h1 {
   font-size: 50pt;
   margin-top: 35px;
@@ -5405,6 +5401,13 @@ th.hide-for-touch {
 
 .app_description {
   padding-left: 50px;
+}
+
+.app_description h1 img {
+  margin-right: 20px;
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
 }
 
 .app_description p {
