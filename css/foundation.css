@@ -5354,6 +5354,9 @@ th.hide-for-touch {
 
 .topbar img {
   margin: 0em auto 0.5em auto;
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
 }
 
 .appstore {
