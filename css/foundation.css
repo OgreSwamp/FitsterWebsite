@@ -5359,6 +5359,10 @@ th.hide-for-touch {
   height: 32px;
 }
 
+.topbar_button:hover {
+  background-color: #1ea0ff;
+}
+
 .appstore {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #e5e5e5));
   background: -webkit-linear-gradient(top center, #f4f4f4, #e5e5e5);
@@ -5398,6 +5402,20 @@ th.hide-for-touch {
   width: 404px;
   min-width: 404px;
   height: 715px;
+  background-image: url(../img/iphone_5c_blue.png);
+  background-size: 404px, 715px;
+}
+
+.iphone_case video {
+  margin-left: 48px;
+  margin-top: 95px;
+}
+
+.demo_video {
+  width: 256px;
+  min-width: 256px;
+  height: 454px;
+  display: block;  
 }
 
 .no_padding {

@@ -12,7 +12,7 @@
   <body>
     <div class="topbar">
     	<div class="row">
-			<div class="large-1 large-offset-9 medium-2 medium-offset-6 small-4 columns">
+			<div class="large-1 large-offset-9 medium-2 medium-offset-6 small-4 columns topbar_button">
 				<div class="row">
 					<a href="http://twitter.com/appuchino">
 						<img data-interchange="[img/twitter.png, (only screen)], [img/twitter@2x.png, (retina)]" class="hide-for-no-js">
@@ -23,7 +23,7 @@
 					Twitter
 				</div>
 			</div>
-			<div class="large-1 medium-2  small-4 columns">
+			<div class="large-1 medium-2 small-4 columns">
 				<div class="row">
 					<a href="">
 						<img data-interchange="[img/news.png, (only screen)], [img/news@2x.png, (retina)]" class="hide-for-no-js">
@@ -49,9 +49,12 @@
     </div>
     <section class="appstore">
     	<div class="row">
-	    	<div class="large-6 columns show-for-large-up iphone_case">
-	    		<img data-interchange="[img/iphone_5c_blue.png, (only screen)], [img/iphone_5c_blue@2x.png, (retina)]" class="hide-for-no-js">
-            <noscript><img src="img/iphone_5c_blue.png"></noscript>
+	    	<div class="large-6 columns show-for-large-up iphone_case" data-interchange="[/img/iphone_5c_blue.png, (only screen)], [/img/iphone_5c_blue@2x.png, (retina)]">
+	            <video width="256" height="454" autoplay="YES" loop="YES" poster="img/screenshots/fithit_demo@2x.png">
+	              <source src="img/screenshots/fithit_demo@2x.mp4" type="video/mp4" media='(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)'>
+	              <source src="img/screenshots/fithit_demo.mp4" type="video/mp4" media='(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)'>
+	              <noscript><img src="img/screenshots/fithit_demo@2x.png"></noscript>
+	            </video>
 	    	</div>
 	    	<div class="small-11 large-6 small-centered large-uncentered columns app_description">
 	    		<div class="row">
@@ -74,9 +77,10 @@
 
 				</div>
 				<div class="row">
-					<form action="https://madmimi.com/signups/subscribe/105026" id="mad_mimi_signup_form" method="post" target="_blank">
+					<form action="https://madmimi.com/signups/subscribe/105026" id="mad_mimi_signup_form" method="post" target="_blank" data-abide>
        				<div class="small-8 columns mimi_field required"> 
-          				<input id="signup_email" name="signup[email]" type="text" data-required-field="This field is required" placeholder="Email address"/>
+          				<input id="signup_email" name="signup[email]" type="email" data-required-field="This field is required" placeholder="Email address"/>
+          				<small class="error">An email address is required.</small>
           			</div>
           			<div class="clear small-4 columns ">
           				<input type="submit" class="submit button postfix" value="Subscribe" id="webform_submit_button" data-default-text="Subscribe" data-submitting-text="Sending…" data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list">
@@ -192,3 +196,4 @@
   <script>$('#slider-id').codaSlider();</script>
   </body>
 </html>
+
