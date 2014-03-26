@@ -5468,6 +5468,10 @@ th.hide-for-touch {
   text-transform: uppercase;
 }
 
+.quote {
+  margin: auto;
+}
+
 .user_quotes img {
   display: inline-block;  
   float: left;
@@ -5486,13 +5490,13 @@ th.hide-for-touch {
 
 .testinfo h4 {
   font-size: 14px;
-  margin-bottom: 0px;
+  /*margin-bottom: 0px;*/
 }
 
 .testinfo h5 {
   font-size: 12px;
   color: #79797a;
-  margin-top: 0px;
+  /*margin-top: 0px;*/
 }
 
 .stroke img {
