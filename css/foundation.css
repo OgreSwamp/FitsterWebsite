@@ -5476,10 +5476,10 @@ th.hide-for-touch {
 .quote img {
   display: inline-block;
   float: none;
-  padding-right: 0;
+  padding-right: 10px;
 }
 .user_quotes p {
-  margin-top: 110px;
+  margin-top: 150px;
   font-family: "pf_dintext_proregular";
   font-size: 24px;
   text-align: center;
@@ -5487,6 +5487,9 @@ th.hide-for-touch {
 
 .testinfo {
   padding-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
 }
 
 .testinfo h4 {
