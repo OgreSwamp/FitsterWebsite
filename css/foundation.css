@@ -5470,12 +5470,13 @@ th.hide-for-touch {
 
 .quote {
   margin: auto;
+  text-align: center;
 }
 
-.user_quotes img {
-  display: inline-block;  
-  float: left;
-  padding-right: 10px;
+.quote img {
+  display: inline-block;
+  float: none;
+  padding-right: 0;
 }
 .user_quotes p {
   margin-top: 110px;
