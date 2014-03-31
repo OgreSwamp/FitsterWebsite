@@ -5345,7 +5345,6 @@ th.hide-for-touch {
 .topbar {
   background: #007aff;
   color: white;
-  padding: 1em;
   font-size: 14px;
   font-weight: 100;
   text-align: center;
@@ -5357,6 +5356,15 @@ th.hide-for-touch {
   width: 32px;
   min-width: 32px;
   height: 32px;
+}
+
+.topbar_button {
+  padding: 1em;
+  -webkit-transition: background-color 400ms ease;
+  -moz-transition: background-color 400ms ease;
+  -o-transition: background-color 400ms ease;
+  -ms-transition: background-color 400ms ease;
+  transition: background-color 400ms ease;
 }
 
 .topbar_button:hover {
