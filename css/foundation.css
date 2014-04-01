@@ -5364,7 +5364,7 @@ th.hide-for-touch {
   -moz-transition: background-color 400ms ease;
   -o-transition: background-color 400ms ease;
   -ms-transition: background-color 400ms ease;
-  transition: background-color 400ms ease;
+  transition: background-color 400ms ease`;
 }
 
 .topbar_button:hover {
@@ -5516,6 +5516,10 @@ th.hide-for-touch {
   margin : auto;
   margin-top: 20px;
   margin-bottom: 5px;
+}
+
+.vertical_space {
+  margin-top: 130px;
 }
 
 .screenshots img {
